@@ -1,1 +1,7 @@
-#include "projekt_main.h"
+#include "function-library.h"
+
+int main(void) {
+
+
+    return 0;
+}
