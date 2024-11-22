@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "mine_sweeper_p1.exe"
-		},
-		{
-			"path" : "mine_sweeper_p1.pdb"
+			"path" : "mine_sweeper_p1"
 		}
 	],
 	"backtrace" : 1,
@@ -45,14 +42,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/."
+					"path" : "/Users/jespersoerensen/CLionProjects/mine_sweeper_p1/."
 				}
 			],
 			"language" : "C",
@@ -92,16 +89,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "mine_sweeper_p1",
-	"nameOnDisk" : "mine_sweeper_p1.exe",
+	"nameOnDisk" : "mine_sweeper_p1",
 	"paths" : 
 	{
 		"build" : ".",
