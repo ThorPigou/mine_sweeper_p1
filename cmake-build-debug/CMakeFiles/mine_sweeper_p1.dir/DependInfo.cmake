@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1/algorithm/run_algorithm.c" "CMakeFiles/mine_sweeper_p1.dir/algorithm/run_algorithm.c.o" "gcc" "CMakeFiles/mine_sweeper_p1.dir/algorithm/run_algorithm.c.o.d"
-  "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1/function-library.c" "CMakeFiles/mine_sweeper_p1.dir/function-library.c.o" "gcc" "CMakeFiles/mine_sweeper_p1.dir/function-library.c.o.d"
-  "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1/map_creation/map_create_objects.c" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_create_objects.c.o" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_create_objects.c.o.d"
-  "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1/map_creation/map_initializer.c" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_initializer.c.o" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_initializer.c.o.d"
-  "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1/map_creation/map_input.c" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_input.c.o" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_input.c.o.d"
-  "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1/map_creation/map_object_check.c" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_object_check.c.o" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_object_check.c.o.d"
-  "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1/map_processing/create_file.c" "CMakeFiles/mine_sweeper_p1.dir/map_processing/create_file.c.o" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_processing/create_file.c.o.d"
-  "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1/map_processing/parse_map.c" "CMakeFiles/mine_sweeper_p1.dir/map_processing/parse_map.c.o" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_processing/parse_map.c.o.d"
-  "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1/map_processing/process_map.c" "CMakeFiles/mine_sweeper_p1.dir/map_processing/process_map.c.o" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_processing/process_map.c.o.d"
-  "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1/map_processing/read_map.c" "CMakeFiles/mine_sweeper_p1.dir/map_processing/read_map.c.o" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_processing/read_map.c.o.d"
-  "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1/projekt_main.c" "CMakeFiles/mine_sweeper_p1.dir/projekt_main.c.o" "gcc" "CMakeFiles/mine_sweeper_p1.dir/projekt_main.c.o.d"
+  "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/algorithm/run_algorithm.c" "CMakeFiles/mine_sweeper_p1.dir/algorithm/run_algorithm.c.obj" "gcc" "CMakeFiles/mine_sweeper_p1.dir/algorithm/run_algorithm.c.obj.d"
+  "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/function-library.c" "CMakeFiles/mine_sweeper_p1.dir/function-library.c.obj" "gcc" "CMakeFiles/mine_sweeper_p1.dir/function-library.c.obj.d"
+  "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/map_creation/map_create_objects.c" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_create_objects.c.obj" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_create_objects.c.obj.d"
+  "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/map_creation/map_initializer.c" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_initializer.c.obj" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_initializer.c.obj.d"
+  "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/map_creation/map_input.c" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_input.c.obj" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_input.c.obj.d"
+  "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/map_creation/map_object_check.c" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_object_check.c.obj" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_creation/map_object_check.c.obj.d"
+  "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/map_processing/create_file.c" "CMakeFiles/mine_sweeper_p1.dir/map_processing/create_file.c.obj" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_processing/create_file.c.obj.d"
+  "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/map_processing/parse_map.c" "CMakeFiles/mine_sweeper_p1.dir/map_processing/parse_map.c.obj" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_processing/parse_map.c.obj.d"
+  "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/map_processing/process_map.c" "CMakeFiles/mine_sweeper_p1.dir/map_processing/process_map.c.obj" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_processing/process_map.c.obj.d"
+  "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/map_processing/read_map.c" "CMakeFiles/mine_sweeper_p1.dir/map_processing/read_map.c.obj" "gcc" "CMakeFiles/mine_sweeper_p1.dir/map_processing/read_map.c.obj.d"
+  "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/projekt_main.c" "CMakeFiles/mine_sweeper_p1.dir/projekt_main.c.obj" "gcc" "CMakeFiles/mine_sweeper_p1.dir/projekt_main.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

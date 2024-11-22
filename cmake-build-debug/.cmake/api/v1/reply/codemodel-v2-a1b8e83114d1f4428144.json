@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.29"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "mine_sweeper_p1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mine_sweeper_p1-Debug-85bf7164850e21a53c11.json",
+					"jsonFile" : "target-mine_sweeper_p1-Debug-2ccd4137bca5a1a2ce11.json",
 					"name" : "mine_sweeper_p1",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1/cmake-build-debug",
-		"source" : "/Users/mikkeldreyer/Documents/GitHub/mine_sweeper_p1"
+		"build" : "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1/cmake-build-debug",
+		"source" : "C:/Users/delic/Desktop/Schoo/GitHub/mine_sweeper_p1"
 	},
 	"version" : 
 	{
