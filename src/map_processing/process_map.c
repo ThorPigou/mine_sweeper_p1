@@ -8,3 +8,11 @@
 // Analyze the map for important features (e.g. mine type and thus danger radius).
 // Update map elements if necessary.
 // Outputs the processed map.
+
+
+#include <stdio.h>
+
+void process_map_test() {
+    printf("process_map \n");
+
+}
