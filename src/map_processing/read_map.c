@@ -12,17 +12,17 @@ Cell* read_map_from_file (const char* file, int* rows, int* columns, int* num_ce
         printf("Error - read_map: File could not be opened...\n");
         exit (EXIT_FAILURE);
     }
-    printf("Debug - read_map: File opened successfully: %s\n", file);
+    DEBUG_MSG("Debug - read_map: File opened successfully: %s\n", file);
 
     /* Læsning af dimensioner */
     fscanf(local_file, "%d %d", rows, columns);
-    printf("Debug - read_map: Read rows = %d, columns = %d\n", *rows, *columns);
+    DEBUG_MSG("Debug - read_map: Read rows = %d, columns = %d\n", *rows, *columns);
 
     /* Udregning af total antal celler */
     *num_cells = *rows * *columns;
-    printf("Debug - read_map: Number of cells calculated = %d\n", *num_cells);
+    DEBUG_MSG("Debug - read_map: Number of cells calculated = %d\n", *num_cells);
 
-    /* Allokering af hukommelse til array, som indeholder data fra kort */
+    /* Allokering af hukommelse til cell array, som indeholder data fra kort */
     Cell* cell_array = malloc(*num_cells * sizeof(Cell));
 
     /* Kontrol om hukommelse til cell array kunne allokeres */
@@ -42,13 +42,13 @@ Cell* read_map_from_file (const char* file, int* rows, int* columns, int* num_ce
                 fclose(local_file);
                 exit (EXIT_FAILURE);
             }
-            printf("Debug - read_map: cell_array[%d] = (%s, %d, %d)\n",
+            DEBUG_MSG("Debug - read_map: cell_array[%d] = (%s, %d, %d)\n",
                 i, cell_array[i].obstacle, cell_array[i].terrain, cell_array[i].mine);
     }
 
     /* Til slut lukkes filen, og den tomme matrix returneres fra funktionen */
     fclose(local_file);
-    printf("Debug - read_map: File closed successfully\n");
+    DEBUG_MSG("Debug - read_map: File closed successfully\n");
     return cell_array;
 }
 
