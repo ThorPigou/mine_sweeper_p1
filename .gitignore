@@ -50,8 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+<<<<<<< Updated upstream
 
 # From Morten impr exercises
 .idea
 cmake-build*
 build/
+=======
+*.log
+>>>>>>> Stashed changes
