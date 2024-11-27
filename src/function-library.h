@@ -4,7 +4,7 @@
 
 // Debug kontrol
 #ifndef DEBUG
-#define DEBUG 0
+#define DEBUG 1
 #endif
 
 #if DEBUG
@@ -15,7 +15,7 @@
 
 // Struct definition
 typedef struct {
-    char obstacle[10];
+    int obstacle;
     int terrain;
     int mine;
 } Cell;

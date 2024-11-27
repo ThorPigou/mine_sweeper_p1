@@ -33,8 +33,8 @@ Cell* read_map_from_file (const char* file, int* rows, int* columns, int* num_ce
 
     /* Indlæsning af hver celle */
     for (int i = 0; i < *num_cells; i++) {
-            if (fscanf(local_file, "%s %d %d",
-                    cell_array[i].obstacle,
+            if (fscanf(local_file, "%d %d %d",
+                    &cell_array[i].obstacle,
                     &cell_array[i].terrain,
                     &cell_array[i].mine) != 3) {
                 printf("Error - read_map: Failed to read cell %d\n", i);
@@ -42,7 +42,7 @@ Cell* read_map_from_file (const char* file, int* rows, int* columns, int* num_ce
                 fclose(local_file);
                 exit (EXIT_FAILURE);
             }
-            DEBUG_MSG("Debug - read_map: cell_array[%d] = (%s, %d, %d)\n",
+            DEBUG_MSG("Debug - read_map: cell_array[%d] = (%d, %d, %d)\n",
                 i, cell_array[i].obstacle, cell_array[i].terrain, cell_array[i].mine);
     }
 
@@ -64,7 +64,7 @@ void read_map_test() {
 
     /* Verificering af data i hver celle */
     for (int i = 0; i < num_cells; i++) {
-        printf("Test/read_map - Cell array[%d] = (%s, %d, %d)\n",
+        printf("Test/read_map - Cell array[%d] = (%d, %d, %d)\n",
             i, cell_array[i].obstacle, cell_array[i].terrain, cell_array[i].mine);
     }
 
