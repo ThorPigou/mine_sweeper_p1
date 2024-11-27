@@ -13,7 +13,6 @@
 #include <stdio.h>
 
 void process_map_test() {
-    printf("process_map works\n");
+    printf("process_map \n");
 
 }
-
