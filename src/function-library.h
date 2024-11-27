@@ -6,3 +6,4 @@
 void read_map_test();
 void parse_map_test();
 void process_map_test();
+void run_algorithm();
