@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-#include <stdlib.h>
+#include <stdlib.h>x
 
 typedef struct is_obstacle {
     int is_tree;
