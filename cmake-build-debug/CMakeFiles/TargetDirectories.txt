@@ -1,3 +1,7 @@
-/Users/rasmusbastianbang/CLionProjects/mine_sweeper_p1/cmake-build-debug/CMakeFiles/mine_sweeper_p1.dir
-/Users/rasmusbastianbang/CLionProjects/mine_sweeper_p1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/rasmusbastianbang/CLionProjects/mine_sweeper_p1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Thor/Documents/GitHub/mine_sweeper_p1/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/Thor/Documents/GitHub/mine_sweeper_p1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Thor/Documents/GitHub/mine_sweeper_p1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Thor/Documents/GitHub/mine_sweeper_p1/cmake-build-debug/src/CMakeFiles/project_main.dir
+C:/Users/Thor/Documents/GitHub/mine_sweeper_p1/cmake-build-debug/src/CMakeFiles/test.dir
+C:/Users/Thor/Documents/GitHub/mine_sweeper_p1/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+C:/Users/Thor/Documents/GitHub/mine_sweeper_p1/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
