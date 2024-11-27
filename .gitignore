@@ -57,6 +57,5 @@ cmake-build*
 build/
 cmake-build-debug/Testing/Temporary/LastTest.log
 cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
-cmake-build-debug/CMakeCache.txt
 cmake-build-debug/CMakeFiles/clion-Debug-log.txt
 cmake-build-debug/CMakeFiles/clion-environment.txt
